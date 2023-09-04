@@ -1,5 +1,7 @@
 # wp-search-form-matching-highlight
 
+### Replace you searchform.php file with below code.
+
 ``` 
 <form role="search" id="tfsb_form" action="" method="post">
 	<label>
