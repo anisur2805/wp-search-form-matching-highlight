@@ -1,4 +1,4 @@
-# WordPress Make Search Result Highlights.
+# WordPress Make Search Results Highlights.
 
 ## Replace you searchform.php file with below code.
 
