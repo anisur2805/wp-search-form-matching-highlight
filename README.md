@@ -1,6 +1,6 @@
-# wp-search-form-matching-highlight
+# WordPress Make Search Result Highlights.
 
-### Replace you searchform.php file with below code.
+## Replace you searchform.php file with below code.
 
 ``` 
 <form role="search" id="tfsb_form" action="" method="post">
