@@ -23,6 +23,7 @@
 
 /**
  * Highlight search keyword\s
+ * Place below code to functions.php file
  */
 
 add_filter( 'the_title', 'tfsb_highlight_search_keyword', 10, 1 );
