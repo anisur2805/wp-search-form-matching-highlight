@@ -29,7 +29,7 @@ add_filter( 'the_content', 'tfsb_highlight_search_keyword', 10, 1 );
  
 function tfsb_highlight_search_keyword( $text ) {
 
-    if( $is_search ) {
+    if( is_search() ) {
         $pattern = '/('. join('|', explode(' ', get_search_query())).')/i';
         $text = preg_replace( $pattern, '<span class="tfsb_highligh_keyword">\0</span>', $text);
     }
